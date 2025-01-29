@@ -1,0 +1,64 @@
+{
+    "models": [
+        {
+            "gpt-4-mini": {
+                "endpoints": [
+                    {
+                        "url": "https://fekgpt.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2023-03-15-preview",
+                        "key": "d193a8ef0f9a49e49fcabd53e4b0c4c0"
+                    }
+                ]
+            }    
+        },
+        {
+            "gpt-4o": {
+                "endpoints": [
+                    {
+                        "url": "https://fekgpt.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2023-03-15-preview",
+                        "key": "d193a8ef0f9a49e49fcabd53e4b0c4c0"
+                    }
+                ]
+            }
+        },        
+        {
+            "gpt-4-turbo": {
+                "endpoints": [
+                    {
+                        "url": "https://fekgpt.openai.azure.com/openai/deployments/gpt-4o-turbo/chat/completions?api-version=2023-03-15-preview",
+                        "key": "d193a8ef0f9a49e49fcabd53e4b0c4c0"
+                    }
+                ]
+            }    
+        },
+        {
+            "gpt-35-turbo": {
+                "endpoints": [
+                    {
+                        "url": "https://fekgpt.openai.azure.com/openai/deployments/gpt-35-turbo/chat/completions?api-version=2023-03-15-preview",
+                        "key": "d193a8ef0f9a49e49fcabd53e4b0c4c0"
+                    }
+                ]
+            }
+        },
+        {
+            "text-embedding-ada-002": {
+                "endpoints": [
+                    {
+                        "url": "https://fekgpt.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-03-15",
+                        "key": "d193a8ef0f9a49e49fcabd53e4b0c4c0"
+                    }
+                ]
+            }
+        },
+        {
+            "code-interpreter": {
+                "endpoints": [
+                    {
+                        "url": "https://fekgpt.openai.azure.com",
+                        "key": "d193a8ef0f9a49e49fcabd53e4b0c4c0"
+                    }
+                ]
+            }
+        }
+    ]
+}
